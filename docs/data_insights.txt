@@ -1,0 +1,30 @@
+--- 📊 DATASET OVERVIEW ---
+Loaded dataset with 17232 observations and 20 features.
+✅ Data Cleanliness: No missing values found in the dataset.
+
+--- 🎯 TARGET VARIABLE ANALYSIS (disposition) ---
+Distribution: CANDIDATE: 41.3%, FALSE POSITIVE: 35.6%, CONFIRMED: 23.2%
+
+--- 🔬 AUTOMATED FEATURE INSIGHTS ---
+❗️ Potential Predictor: 'planet_insolation_earthflux' shows a significant mean difference between classes (CONFIRMED: 459.96, FALSE POSITIVE: 12584.84).
+❗️ Outlier Alert: 'planet_insolation_earthflux' has a high percentage of potential outliers (13.6%). Consider scaling or transformation.
+❗️ Potential Predictor: 'num_planet_candidates' shows a significant mean difference between classes (CONFIRMED: 1.73, FALSE POSITIVE: 1.07).
+❗️ Outlier Alert: 'dec_deg' has a high percentage of potential outliers (15.7%). Consider scaling or transformation.
+❗️ Potential Predictor: 'planet_eq_temp_k' shows a significant mean difference between classes (CONFIRMED: 909.24, FALSE POSITIVE: 1408.36).
+❗️ Outlier Alert: 'planet_eq_temp_k' has a high percentage of potential outliers (3.8%). Consider scaling or transformation.
+❗️ Potential Predictor: 'orbital_period_days' shows a significant mean difference between classes (CONFIRMED: 22.59, FALSE POSITIVE: 53.68).
+❗️ Outlier Alert: 'orbital_period_days' has a high percentage of potential outliers (15.4%). Consider scaling or transformation.
+❗️ Potential Predictor: 'transit_depth_ppm' shows a significant mean difference between classes (CONFIRMED: 3507.57, FALSE POSITIVE: 36527.25).
+❗️ Outlier Alert: 'transit_depth_ppm' has a high percentage of potential outliers (11.5%). Consider scaling or transformation.
+❗️ Potential Predictor: 'planet_radius_earth' shows a significant mean difference between classes (CONFIRMED: 4.69, FALSE POSITIVE: 125.80).
+❗️ Outlier Alert: 'planet_radius_earth' has a high percentage of potential outliers (9.5%). Consider scaling or transformation.
+❗️ Outlier Alert: 'stellar_logg_cms2' has a high percentage of potential outliers (5.0%). Consider scaling or transformation.
+❗️ Outlier Alert: 'stellar_temp_k' has a high percentage of potential outliers (9.4%). Consider scaling or transformation.
+❗️ Outlier Alert: 'ra_deg' has a high percentage of potential outliers (2.6%). Consider scaling or transformation.
+❗️ Potential Predictor: 'stellar_radius_solar' shows a significant mean difference between classes (CONFIRMED: 1.07, FALSE POSITIVE: 2.05).
+❗️ Outlier Alert: 'stellar_radius_solar' has a high percentage of potential outliers (7.0%). Consider scaling or transformation.
+❗️ Outlier Alert: 'transit_duration_hours' has a high percentage of potential outliers (8.4%). Consider scaling or transformation.
+❗️ Potential Predictor: 'rowid' shows a significant mean difference between classes (CONFIRMED: 2615.33, FALSE POSITIVE: 5214.80).
+
+--- ⛓️ MULTICOLLINEARITY ANALYSIS ---
+✅ No strong multicollinearity detected between numeric features (threshold > 0.8).
