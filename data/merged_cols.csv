@@ -1,0 +1,21 @@
+star_id: Star Identification - A unique ID for the host star in its respective input catalog (Kepler Input Catalog or TESS Input Catalog).
+object_name: Object of Interest Name - A number used to identify and track a transiting object of interest.
+disposition: Disposition - The category of the object, such as Confirmed Planet, Planetary Candidate, or False Positive.
+alias: Community Name/Alias - A human-readable name or alias for the confirmed planet or community-identified object.
+num_planet_candidates: Number of Planet Candidates - The total number of planet candidates identified within the planetary system.
+ra_deg: Right Ascension - The celestial coordinate in decimal degrees for the object's right ascension.
+dec_deg: Declination - The celestial coordinate in decimal degrees for the object's declination.
+stellar_temp_k: Stellar Effective Temperature - The photospheric temperature of the host star in Kelvin.
+stellar_radius_solar: Stellar Radius - The radius of the host star in units of solar radii.
+stellar_logg_cms2: Stellar Surface Gravity - The base-10 logarithm of the gravitational acceleration at the star's surface.
+stellar_mag: Stellar Magnitude - The brightness of the host star as measured in the respective mission's photometric band (Kepler-band or TESS-band).
+orbital_period_days: Planet Orbital Period - The time the planet takes to make a complete orbit around its host star in days.
+planet_radius_earth: Planet Radius - The length of a line segment from the center of the planet to its surface, measured in Earth radii.
+transit_duration_hours: Planet Transit Duration - The length of time a planet takes to cross the face of its host star, measured in hours.
+transit_depth_ppm: Planet Transit Depth - The relative decrease in the host star's flux caused by the transiting planet, measured in parts per million.
+planet_eq_temp_k: Planet Equilibrium Temperature - An approximation of the planet's temperature as modeled by a black body heated only by its host star.
+planet_insolation_earthflux: Planet Insolation Flux - The measure of the amount of stellar radiation received by the planet, relative to the Earth's insolation.
+transit_midpoint_bjd: Planet Transit Midpoint - The time corresponding to the center of the first detected transit, measured in Barycentric Julian Day (BJD).
+impact_parameter: Impact Parameter - The sky-projected distance between the center of the stellar disc and the center of the planet disc at conjunction, normalized by the stellar radius.
+stellar_distance_pc: Stellar Distance - The distance to the planetary system from Earth in units of parsecs.
+mission: Mission - The origin of the data entry, either Kepler or TESS.
