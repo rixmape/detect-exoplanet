@@ -1,0 +1,86 @@
+toi: TESS Object of Interest
+toipfx: TESS Object of Interest Prefix
+tid: TESS Input Catalog ID
+ctoi_alias: TESS Input Catalog of Interest Alias
+pl_pnum: Pipeline Signal ID
+tfopwg_disp: TFOPWG Dispostion (CP | FP | KP | PC)
+rastr: RA [sexagesimal]
+ra: RA [deg]
+raerr1: RA Upper Unc
+raerr2: RA Lower Unc
+decstr: Dec [sexagesimal]
+dec: Dec [deg]
+decerr1: Dec Upper Unc
+decerr2: Dec Lower Unc
+st_pmra: PMRA [mas/yr]
+st_pmraerr1: PMRA Upper Unc [mas/yr]
+st_pmraerr2: PMRA Lower Unc [mas/yr]
+st_pmralim: PMRA Limit Flag
+st_pmrasymerr: PMRA Symmetric Error Flag
+st_pmdec: PMDec [mas/yr]
+st_pmdecerr1: PMDec Upper Unc [mas/yr]
+st_pmdecerr2: PMDec Lower Unc [mas/yr]
+st_pmdeclim: PMDec Limit Flag
+st_pmdecsymerr: PMDec Symmetric Error Flag
+pl_tranmid: Planet Transit Midpoint Value [BJD]
+pl_tranmiderr1: Planet Transit Midpoint Upper Unc [BJD]
+pl_tranmiderr2: Planit Transit Midpoint Lower Unc [BJD]
+pl_tranmidlim: Planet Transit Midpoint Limit Flag
+pl_tranmidsymerr: Planet Transit Midpoint Symmetric Error Flag
+pl_orbper: Planet Orbital Period Value [days]
+pl_orbpererr1: Planet Orbital Period Upper Unc [days]
+pl_orbpererr2: Planet Orbital Period Lower Unc [days]
+pl_orbperlim: Planet Orbital Period Limit Flag
+pl_orbpersymerr: Planet Orbital Period Symmetric Error Flag
+pl_trandurh: Planet Transit Duration Value [hours]
+pl_trandurherr1: Planet Transit Duration Upper Unc [hours]
+pl_trandurherr2: Planet Transit Duration Lower Unc [hours]
+pl_trandurhlim: Planet Transit Duration Limit Flag
+pl_trandurhsymerr: Planet Transit Duration Symmetric Error Flag
+pl_trandep: Planet Transit Depth Value [ppm]
+pl_trandeperr1: Planet Transit Depth Upper Unc [ppm]
+pl_trandeperr2: Planet Transit Depth Lower Unc [ppm]
+pl_trandeplim: Planet Transit Depth Limit Flag
+pl_trandepsymerr: Planet Transit Depth Symmetric Error Flag
+pl_rade: Planet Radius Value [R_Earth]
+pl_radeerr1: Planet Radius Upper Unc [R_Earth]
+pl_radeerr2: Planet Radius Lower Unc [R_Earth]
+pl_radelim: Planet Radius Limit Flag
+pl_radesymerr: Planet Radius Symmetric Error Flag
+pl_insol: Planet Insolation Value [Earth flux]
+pl_insolerr1: Planet Insolation Upper Unc [Earth flux]
+pl_insolerr2: Planet Insolation Lower Unc [Earth flux]
+pl_insollim: Planet Insolation Limit Flag
+pl_insolsymerr: Planet Insolation Symmetric Error Flag
+pl_eqt: Planet Equilibrium Temperature Value [K]
+pl_eqterr1: Planet Equilibrium Temperature Upper Unc [K]
+pl_eqterr2: Planet Equilibrium Temperature Lower Unc [K]
+pl_eqtlim: Planet Equilibrium Temperature Limit Flag
+pl_eqtsymerr: Planet Equilibrium Temperature Symmetric Error Flag
+st_tmag: TESS Magnitude
+st_tmagerr1: TESS Magnitude Upper Unc
+st_tmagerr2: TESS Magnitude Lower Unc
+st_tmaglim: TESS Magnitude Limit Flag
+st_tmagsymerr: TESS Magnitude Symmetric Error Flag
+st_dist: Stellar Distance [pc]
+st_disterr1: Stellar Distance Upper Unc [pc]
+st_disterr2: Stellar Distance Lower Unc [pc]
+st_distlim: Stellar Distance Limit Flag
+st_distsymerr: Stellar Distance Symmetric Error Flag
+st_teff: Stellar Effective Temperature Value [K]
+st_tefferr1: Stellar Effective Termperature Upper Unc [K]
+st_tefferr2: Stellar Effective Temperature Lower Unc [K]
+st_tefflim: Stellar Effective Temperature Limit Flag
+st_teffsymerr: Stellar Effective Temperature Symmetric Error Flag
+st_logg: Stellar log(g) Value [cm/s**2]
+st_loggerr1: Stellar log(g) Upper Unc [cm/s**]
+st_loggerr2: Stellar log(g) Lower Unc [cm/s**2]
+st_logglim: Stellar log(g) Limit Flag
+st_loggsymerr: Stellar log(g) Symmetric Error Flag
+st_rad: Stellar Radius Value [R_Sun]
+st_raderr1: Stellar Radius Upper Unc [R_Sun]
+st_raderr2: Stellar Radius Lower Unc [R_Sun]
+st_radlim: Stellar Radius Limit Flag
+st_radsymerr: Stellar Radius Symmetric Error Flag
+toi_created: TOI Created Date
+rowupdate: Date Modified
